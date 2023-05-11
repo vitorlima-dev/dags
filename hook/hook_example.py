@@ -1,0 +1,1 @@
+print("hook_example")
