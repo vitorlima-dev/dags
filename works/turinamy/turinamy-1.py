@@ -11,7 +11,7 @@ import pendulum
 local_tz = pendulum.timezone("America/Fortaleza")
 
 with DAG (
-    dag_id = 'turinamy',
+    dag_id = 'turinamy-1',
     start_date =  pendulum.datetime(2023, 4, 24, tz=local_tz),
     schedule_interval = '50 18 * * *'
 ) as dag:
